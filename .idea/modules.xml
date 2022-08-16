@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/study_lab_realwear.iml" filepath="$PROJECT_DIR$/.idea/modules/study_lab_realwear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/study_lab_realwear.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/study_lab_realwear.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/study_lab_realwear.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/study_lab_realwear.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/study_lab_realwear.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/study_lab_realwear.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/study_lab_realwear.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/study_lab_realwear.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">study_lab_realwear</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_correct">Correct!</string>
+    <string name="bt_home">home</string>
+    <string name="bt_start">start</string>
+    <string name="tv_main">This is realWear Study Lab_student</string>
+    <string name="bt_one">1</string>
+    <string name="bt_two">2</string>
+    <string name="bt_three">3</string>
+    <string name="bt_four">4</string>
+    <string name="bt_five">5</string>
+    <string name="tv_wrong">Wrong!</string>
 </resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/problemFragment"
+        android:name="com.studylab.study_lab_realwear.fragment.ProblemFragment"
+        android:label="fragment_problem"
+        tools:layout="@layout/fragment_problem" >
+        <action
+            android:id="@+id/action_problemFragment_to_correctFragment2"
+            app:destination="@id/correctFragment" />
+        <action
+            android:id="@+id/action_problemFragment_to_wrongFragment"
+            app:destination="@id/wrongFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/correctFragment"
+        android:name="com.studylab.study_lab_realwear.fragment.CorrectFragment"
+        android:label="fragment_correct"
+        tools:layout="@layout/fragment_correct" >
+        <action
+            android:id="@+id/action_correctFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wrongFragment"
+        android:name="com.studylab.study_lab_realwear.fragment.WrongFragment"
+        android:label="fragment_wrong"
+        tools:layout="@layout/fragment_wrong" >
+        <action
+            android:id="@+id/action_wrongFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.studylab.study_lab_realwear.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_problemFragment"
+            app:destination="@id/problemFragment" />
+    </fragment>
+</navigation>

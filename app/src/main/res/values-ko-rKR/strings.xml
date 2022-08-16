@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">study_lab_realwear</string>
+    <string name="tv_correct">맞았습니다!</string>
+    <string name="bt_home">홈으로</string>
+    <string name="bt_start">시작하기</string>
+    <string name="tv_main">"이건 study Lab 학생용 리얼웨어 앱입니다. "</string>
+    <string name="bt_one">1</string>
+    <string name="bt_two">2</string>
+    <string name="bt_three">3</string>
+    <string name="bt_four">4</string>
+    <string name="bt_five">5</string>
+    <string name="tv_wrong">틀렸습니다!</string>
+</resources>
