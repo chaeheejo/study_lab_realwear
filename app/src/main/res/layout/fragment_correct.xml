@@ -11,11 +11,12 @@
         android:id="@+id/correct_tv_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:text="@string/tv_correct"
         android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/correct_iv"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/correct_iv"
@@ -24,12 +25,14 @@
         android:src="@drawable/image_correct"
         app:layout_constraintBottom_toTopOf="@+id/correct_bt_home"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correct_tv_text" />
 
     <Button
         android:id="@+id/correct_bt_home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
         android:text="@string/bt_home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
